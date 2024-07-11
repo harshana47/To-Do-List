@@ -24,15 +24,18 @@
 .container {
 
     padding: 70px 50px;
-    color: white;
+    color: rgb(255, 255, 255);
+    content: "";
+    font-size: 25px;
     text-align: center;
-    background-image: url(images/R.jpeg);
-    background-position: center;
+    background-image: url(images/pexels-pixabay-358528.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
-
+    background-size: cover;
+    background-position: bottom;
+    height: 300px;
+    background-size: 1500px 500px;
+    
 }
-
 .header:after {
     content: "";
     display: table;
@@ -66,6 +69,7 @@ input::placeholder {
 h1 {
     margin-bottom: 20px;
 }
+
 
 .input-container {
     display: flex;
@@ -137,11 +141,11 @@ ul li {
 }
 
 .delete-btn {
-    background-image: url('images/icons8-bin-48.png');
+    background-image: url('images/icons8-bin-24.png');
     border: none;
     color: white;
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border-radius: 4px;
 }
 
