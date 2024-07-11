@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+/* .container {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    margin: 0 auto; 
+    background-color: #fff;
+    padding: 40px 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%; 
+    height: 20vh; 
+    text-align: center;
+    background-image: url(images/GettyImages-1319377120.webp);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 1000; 
+}  */
+.container {
+
+    padding: 70px 50px;
+    color: white;
+    text-align: center;
+    background-image: url(images/R.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+
+
+/* 
+input {
+    display: block;
+    width: 75vw;
+    height: 1.5vw;
+    padding: 0 2rem;
+}
+
+input,
+input::placeholder {
+    font: 1.25rem/3 sans-serif;
+} */
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.button{
+    display: block;
+    width: 2vw;
+    height: 1.5vw;
+    padding: 0 2rem;
+}
+#new-task {
+    flex: 1;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+#add-task-btn {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+#add-task-btn:hover {
+    background-color: #218838;
+}
+
+#task-list {
+    list-style-type: none;
+    font-size: 24px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    cursor: pointer;
+    padding: 12px 8px 12px 0px;
+    background: border-box;
+    font-size: 18px;
+}
+.task-item {
+    font-size: 24px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.addBtn {
+    padding: 10px;
+    width: 25%;
+    background: dodgerblue;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+
+}
+
+.task-item:last-child {
+    border-bottom: none;
+}
+
+.delete-btn {
+    background-image: url('images/icons8-bin-48.png');
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
